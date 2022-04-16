@@ -1,16 +1,16 @@
-# File-Sharing-Man
+# File-Sharing-Shackle
 
 Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
 Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 
 ##
 
-**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@SharingUserbot](https://www.telegram.dog/SharingUserbot)**
+**Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di Channelku [CHANNEL GABUTKU](https://www.telegram.dog/gabutnyashackle)**
 
 ### Features
 - Sepenuhnya dapat dicustom.
 - Pesan sambutan & Forcesub yang dapat dicustom.
-- Lebih dari satu Posting dalam Satu Link (batch).
+- Lebih dari satu Posting dalam Satu Link (batch).@gabutnyashackle
 - Dapat di-deploy di heroku secara langsung.
 
 ### Setup
@@ -30,8 +30,8 @@ Saya Kira Ini Akan Bermanfaat Bagi Banyak Orang.. 😇.
 
 #### Deploy in your VPS
 ````bash
-git clone -b alpha https://github.com/mrismanaziz/File-Sharing-Man
-cd File-Sharing-Man
+git clone -b alpha https://github.com/shacklee/File-Sharing-Shackle
+cd File-Sharing-Shackle
 pip3 install -r requirements.txt
 cp sample_config.env config.env
 # edit config.env Anda dan isi VARS menggunakan nano config.env CTRL + S untuk menyimpan VARS Anda, 

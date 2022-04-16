@@ -1,6 +1,7 @@
 # (©)Codexbotz
 # Recode by @mrismanaziz
 # t.me/SharingUserbot & t.me/Lunatic0de
+# Clone Jasa @DessXtrash
 
 import asyncio
 from datetime import datetime
@@ -117,8 +118,8 @@ async def start_command(client: Client, message: Message):
                 InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
             ],
             [
-                InlineKeyboardButton(text="• ᴛᴇɴᴛᴀɴɢ sᴀʏᴀ •", callback_data="about"),
-                InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
+                InlineKeyboardButton(text="• KEPOIN AKU •", callback_data="about"),
+                InlineKeyboardButton(text="• TUTUP •", callback_data="close"),
             ],
         ]
         await message.reply_text(

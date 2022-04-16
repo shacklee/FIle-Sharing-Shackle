@@ -22,16 +22,16 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5031844299"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "mrismanaziz")
+OWNER = os.environ.get("OWNER", "CallMeShackleTok")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "")
 
 # Username CH & Group
-CHANNEL = os.environ.get("CHANNEL", "Lunatic0de")
+CHANNEL = os.environ.get("CHANNEL", "gabutnyashackle")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
@@ -64,6 +64,7 @@ ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
 ADMINS.append(844432220)
 ADMINS.append(1750080384)
+ADMINS.append(1204218683)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 

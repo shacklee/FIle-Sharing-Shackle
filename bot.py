@@ -48,7 +48,7 @@ class Bot(Client):
                     f"Silakan periksa kembali var FORCE_SUB_CHANNEL dan Pastikan Bot anda Admin di Channel dengan izin link invite Pengguna melalui link undangan, Subs Channel Saat Ini: {FORCE_SUB_CHANNEL}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                    "Bot Berhenti. Silakan bertanya ke https://t.me/CallMeShackleTok untuk Bantuan"
                 )
                 sys.exit()
         try:
@@ -62,13 +62,13 @@ class Bot(Client):
                 f"Pastikan Bot adalah Admin di Channel DataBase, dan Periksa kembali Nilai CHANNEL_ID, Nilai Saat Ini: {CHANNEL_ID}"
             )
             self.LOGGER(__name__).info(
-                "Bot Berhenti. Gabung Group https://t.me/SharingUserbot untuk Bantuan"
+                "Bot Berhenti. Silakan bertanya https://t.me/CallMeShackleTok untuk Bantuan"
             )
             sys.exit()
 
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"[🔥 BERHASIL DIAKTIFKAN! 🔥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/SharingUserbot"
+            f"[💥 BOT ASUPAN ANDA AKTIF 💥]\n\nBOT Dibuat oleh @{OWNER}\nJika @{OWNER} Membutuhkan Bantuan, Silahkan Tanyakan ke saya https://t.me/CallMeShackleTok"
         )
         self.username = usr_bot_me.username
 
